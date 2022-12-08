@@ -1,0 +1,116 @@
+
+.section-padding{
+	padding: 60px 0px;	
+}
+.marb-35{
+     margin-bottom: 
+     35px;
+}
+.header-h{
+    font-size: 35px;
+    color: #FFBO3B;
+    font-family: 'Satisfy',sans-sarif;
+    font-weight: 300;
+}
+.header-p{
+    color:#9699a6;
+    font-size: 16px;
+}
+#menu-flters ul li {
+    display: inline-block;
+    color: #fff;
+    text-transfrom:capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+#menu-flters ul li a {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #565656;
+    border-radius: 0px;
+    border: 1px solid#BBBBBB;
+    text-decoration:none;
+    cursor: pointer;
+}
+#menu-flters ul li
+a.active, #menu-flters
+ul li a:hover {
+    background: #FFB03B;
+    color: #fff;
+    border: 1px solid #FFB03B;
+}
+.avatar{
+    height: 170px;
+    width: 230px;
+    display: block;
+    margin: auto;
+    padding: 3px;
+}
+/*.topmenu .menu-title{
+    float: left;
+    font-family: Montserrat,arial;
+    text-transfrom:uppercase;
+    letter-spacing: 1px;
+    color: #ff5821;
+}
+.topmenu .menu-line{
+    position: absolute;
+    bottom: 6px;
+    border-bottom: 1px dotteddotter rgba(0,0,0.3);
+    margin-left: .6rem;
+    margin-right: .6rem;
+}
+.topmenu .menu-price {
+    font-weight: 200;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topmenu .menu-subtitle{
+    display: block;
+    float: left;
+    color: #B1B1B1;
+    font-size: 1.2rem;
+}
+.topmenu span.clearfix{
+    position: relative;
+    display: block;
+}*/
+.snacks{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.maincourse{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.desert{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.partypack{
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topmenu{
+   border: 2px solid brown;
+   background-color: rgb(233,208,208);
+   border-radius: 10px;
+   padding: 51px;
+   margin: 10px;
+}
+/*input[type="text"] {
+    padding: 1px 2px;
+    width: 20%;
+}
+
+.txt1{
+    width: 20px;
+}*/
+.atc{
+    padding-left: 15px;
+}

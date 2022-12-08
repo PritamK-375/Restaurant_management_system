@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Payment Option</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="red.css">
+	<script>
+		function radioButton()
+		{
+			var red=document.forms ["myFrom"]["money"];
+			if(red[0].checked==false&&red[1].checked==false&&red[2].checked==false&&red[3].checked==false)
+			{
+				alert("Please select one option!!!")
+			}
+		}
+	</script>
+</head>
+<body>
+ <form name="myFrom" method="">
+ <div class="form-box">
+	 <h1>All other options</h1>
+ 	 <label>
+ 	 	 <input type="radio" name="money" value="UPI">
+ 	 	 <div class="circle"></div>
+ 	 	 <span>UPI</span>
+ 	 </label>
+ 	 <label>
+ 	 	 <input type="radio" name="money"value="Wallets">
+ 	 	 <div class="circle"></div>
+ 	 	 <span>Wallets</span>
+ 	 </label>
+ 	 <label>
+ 	 	 <input type="radio"onclick="redo()" name="money"value="Credit">
+ 	 	 <div class="circle"></div>
+ 	 	 <span>Credit / Debit / ATM Card </span>
+ 	 </label>
+	  <label>
+		<input type="radio" name="money"value="COD">
+		<div class="circle"></div>
+		<span>Cash on Delivery </span>
+   </label>
+   <input type="submit" value="Submit" onclick="radioButton()">
+ </div>
+ </form>
+</body>
+</html>
+
+
+
